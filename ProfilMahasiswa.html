@@ -1,0 +1,88 @@
+<!--Nama: Dinda Zelika Muthi Frida
+Nim: 252520098
+Kelas: TI/B-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="UTF-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa</title>
+    </head>
+    <body>
+        <h1>Profil Mahasiswa</h1>
+        <p>Selamat datang dihalaman profil mahasiswa.</p>
+        <img src="img/umpwr.jpg" alt="Profil Mahasiswa" width="400" height="150">
+        <a href="https://umpwr.ac.id/">Kunjungi Website</a> 
+        
+        <h2>Daftar Hobi</h2>
+        <ul>
+            <li>Membaca Buku</li>
+            <li>Olahraga</li>
+            <li>Bermain Musik</li>
+            <li>Memasak</li>
+        </ul>
+
+        <h2>Daftar Mata Kuliah</h2>
+        <table border="1">
+            <tr>
+                <th>No</th>
+                <th>Kode MK</th>
+                <th>Mata Kuliah</th>
+                <th>SKS</th>
+                <th>Semester</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>DI101</td>
+                <td>Struktur Data</td>
+                <td>3</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>DI102</td>
+                <td>Pemrograman Web</td>
+                <td>3</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>DI103</td>
+                <td>Sistem Operasi</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>DI104</td>
+                <td>PKN</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>DI105</td>
+                <td>AIK</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </table>
+        <h2>Formulir Pendaftaran</h2>
+        <form>
+            <label for="nama">Nama:</label><br>
+            <input type="text" id="nama" name="nama" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label>Jenis Kelamin:</label><br>
+            <input type="radio" id="laki" name="jenis_kelamin" value="Laki-Laki" required>
+            <label for="laki">Laki-Laki</label>
+
+            <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+            <label for="perempuan">Perempuan</label><br><br>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </body>
+</html>
